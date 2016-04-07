@@ -1,12 +1,15 @@
 * {
     padding: 0;
-    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
 } 
 
 body {
-background: #fff;
-font-family: 'Oswald', sans-serif;
-font-size: 11px;
-line-height: 18px;
-color: #333333;
+//background: #fff;
+//font-family: 'Oswald', sans-serif;
+//font-size: 11px;
+//line-height: 18px;
+//color: #333333;
 }
