@@ -16,9 +16,9 @@ font-size: 16px;
 div.transbox {
   margin: 30px;
   background-color: #ffffff;
-  border: 2px solid gray;
-  opacity: 0.8;
-  filter: alpha(opacity=80); /* For IE8 and earlier */
+  border: 4px light gray;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
 div.transbox p {
