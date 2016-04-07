@@ -16,7 +16,7 @@ font-family: 'Oswald', sans-serif;
 div.transbox {
   margin: 30px;
   background-color: #ffffff;
-  border: 0px solid black;
+  border: 2px solid gray;
   opacity: 0.8;
   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
