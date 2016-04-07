@@ -17,6 +17,31 @@ font-size: 16px;
   text-align:center;
 }
 
+#player {
+  text-align: center;
+}
+#intro {
+  text-align: center;
+}
+#what_are_capital_gains {
+  text-align: center;
+}
+#what_is_a_capital_gains_tax {
+  text-align: center;
+}
+#how_is_a_flat_rate_tax_a_bad_thing {
+  text-align: center;
+}
+#what_can_be_done_to_solve_this_issue {
+  text-align: center;
+}
+#what_can_I_do_to_help {
+  text-align: center;
+}
+#quote {
+  text-align: center;
+}
+
 div.transbox {
   margin: 30px;
   background-color: #ffffff;
