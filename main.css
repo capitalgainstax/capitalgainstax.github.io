@@ -19,8 +19,8 @@ div.transbox {
   border-style: solid;
   border-width: 4px;
   border-color: #cacaca;
-  opacity: 0.7;
-  filter: alpha(opacity=70); /* For IE8 and earlier */
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
 }
 
 div.transbox p {
