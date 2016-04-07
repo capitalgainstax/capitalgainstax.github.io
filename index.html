@@ -14,5 +14,41 @@
 			<p>People that have an annual income of over $400,000 only have a tax rate of 20% on income received from long term capital gains, which is almost half of the 39.60% tax rate that they are supposed to be paying for ordinary income. Given the opportunity, most if not all of the people in the highest tax bracket would rather receive the majority of their income through capital gains rather than through ordinary income due to the lower tax rate on money made from buy and selling stocks.</p>
 			<p>The capital gains tax is flawed because it harms both middle and lower class American citizens by forcing them to pay the same percentage of what little long term capital gains that they make as the upper class that receives almost all of their income through capital gains. On top of this, the extremely wealthy are able to avoid paying the taxes that they are meant to be paying by avoiding ordinary income altogether.</p>
 		</div>
+		<div id="player"></div>
+
+    <script>
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'cZ6-IZrmW8Y',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 112000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
 	</body>
 </html>
