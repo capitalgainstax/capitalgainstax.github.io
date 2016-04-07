@@ -27,3 +27,8 @@ div.transbox p {
   margin: 5%;
   color: #000000;
 }
+
+iframe {
+    style="float:right";
+}
+}
